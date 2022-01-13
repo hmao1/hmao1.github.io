@@ -1,316 +1,240 @@
 <!DOCTYPE html>
+
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Slabo+27px|Roboto|Source+Sans+Pro" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src = "./bootstrap/js/bootstrap.min.js"></script>
-		<title>Cheng Mao's Portfolio</title>
-	</head>
+  <head>
+    <title>Cheng Mao's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#top">About me</a></li>
+        <li><a href="#work">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-	<body>
-		<!-- Navigation Bar -->
-		<nav class = "navigation">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">
-						<div class = "logo">
-							<a href = "index.html"><img src = "images/logo.svg"></a>
-						</div>
-					</div>
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-5-large col-12-medium">
+            <span class="image fit"
+              ><img src="./images/circleImg.png" alt="selfie"
+            /></span>
+          </div>
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>Hi. I'm <strong>Cheng Mao</strong>.</h1>
+            </header>
+            <p>Frontend Developer & Problem Slover.</p>
 
-					<div class = "col-xs-11 col-sm-11 col-md-11 col-lg-11 text-right">
-						<div class = "primary-nav">
-							<ul>
-								<li><a href = "index.html">Home</a></li>
-								<li><a href = "portfolio.html">Portfolio</a></li>
-								<li><a href = "contact.html">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+            <section class="box style1">
+              <!-- <span class="icon featured fa-comments"></span> -->
+              <h3>About me</h3>
+              <p>
+                👋 I’m Cheng Mao, a passionate front-end web developer having
+                experience in building web applications with modern web
+                development technologies. Throughout the journey, I have
+                cooperated with different teams of developers, designers, and
+                business analysts to implement and deploy highly interactive web
+                application solutions. I love exploring new technologies and
+                developing new things, which excite me a lot :)
+              </p>
+            </section>
+            <a href="#contact" class="button Small scrolly">Contact Me</a>
+            <!-- <div class="container">
+              <div class="row aln-center">
+                <div class="col-4 col-6-medium col-12-small">
+                  <section class="box style1">
+                    <span class="icon featured fa-comments"></span>
+                    <h3>Consequat lorem</h3>
+                    <p>
+                      Ornare nulla proin odio consequat sapien vestibulum ipsum
+                      primis sed amet consequat lorem dolore.
+                    </p>
+                  </section>
+                </div>
+              </div>
+              <footer>
+                <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+                <a href="#portfolio" class="button large scrolly"
+                  >See some of my recent work</a
+                >
+              </footer>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </article>
 
-		<!-- Main body content -->
-		<div class = "main">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "entry-banner text-center">
-						<h1 id = "hello">Hello, I'm</h1>
-						<h1 id = "name">Cheng</h1>
-						<h1 id = "person-description">Frontend Developer & Problem Solver.</h1>
-					</div>
-				</div>
+    <!-- Skills -->
+    <article id="work" class="wrapper style2">
+      <div class="container">
+        <header>
+          <h2>Technologies I have been using.</h2>
+        </header>
 
-				<div class = "row text-center">
-					<div class = "banner-buttons">
-						<div class = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5">
-							<a class = "btn btn-default btn-border" href = "#about">Info</a>
-						</div>
+        <div class="skills-section-container">
+          <img
+            class="techIcon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+            width="100px"
+          />
 
-						<div class = "col-sm-1 col-md-1">
-							<a class = "btn btn-default btn-border" href = "#projects">Portfolio</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+          <img
+            class="techIcon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+          />
 
-		<div class = "about" id="about">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "about-header">
-							<h1>About Me</h1>
-						</div>
-					</div>
-				</div>
+          <img
+            class="techIcon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+          />
 
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "about-header-quote">
-							<h3>Sharing a little bit of my story...</h3>
-						</div>
-					</div>
-				</div>
+          <img
+            class="techIcon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+          />
 
-				<div class = "row">
-					<div class = "about-general-description ">
-						<div class = "col-sm-8 col-md-8 ">
-							<h2>Overview</h2>
-						<p>👋 I’m Cheng Mao, a passionate front-end web developer having experience in building web applications with modern web development technologies. Throughout the journey, I have cooperated with different teams of developers, designers, and business analysts to implement and deploy highly interactive web application solutions. I love exploring new technologies and developing new things, which excite me a lot :)</p>
-						</div>
-					</div>
-				</div>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
+          />
 
-			
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+          />
 
-				<div class = "row">
-					<div class = "about-option-buttons">
-						<div class = "col-sm-2 col-md-2">
-							<a href = "#contact" class = "btn btn-default btn-black-border">Contact</a>
-						</div>
-					</div>
-				</div>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          />
 
-				<!-- Include arrow to show timeline -->
-			</div>
-		</div>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+          />
 
-		<div class = "summary">
-			<div class = "container-fluid">
-				<h1 class="section-title"> 
-					<span class="title-text">Skills</span>
-	
-				</h1>
-				<br>
-				<div class = "skills-section-container">
-					
-					<img class="techIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"  width="100px"/>
-				
-					<img class="techIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-				
-					<img class="techIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-				
-					<img  class="techIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-					
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
-				
-				
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-			
-				
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-			
-				
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
-			
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-				
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
-			
-				</div>
-			</div>
-		</div>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+          />
 
-		<div class = "projects" id="projects">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "projects-header">
-							<h1>Projects and Portfolio</h1>
-						</div>
-					</div>
-				</div>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+          />
+        </div>
 
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "projects-header-quote">
-							<h3>Sharing my endeavors and passions...</h3>
-						</div>
-					</div>
-				</div>
+        <footer>
+          <a href="#portfolio" class="button small scrolly">Recent Projects</a>
+        </footer>
+      </div>
+    </article>
 
-				<div class = "row">
-					<div class = "col-sm-4 col-md-4 text-center">
-						<div class = "luvtalk-project">
-							<h3>LUV TALK Website</h3>
-							<p>Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress. </p>
-							<div class = "row">
-								<div class = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-									<div class = "project-more-info">
-										<a class = "btn btn-default btn-border" href = "#">More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Here’s some personal project I made recently.</h2>
+        </header>
+        <div class="row">
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a
+                href="https://github.com/hmao1/BostonUniveristy-SeniorDesignProject-ExploreSafe"
+                class="image featured"
+                ><img src="images/mainLogo.png" alt="Exploresafe Logo"
+              /></a>
+              <h3>
+                <a
+                  href="https://github.com/hmao1/BostonUniveristy-SeniorDesignProject-ExploreSafe"
+                  >ExploreSafe</a
+                >
+              </h3>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="#" class="image featured"
+                ><img src="images/pic02.jpg" alt=""
+              /></a>
+              <h3><a href="#">Veroeros primis</a></h3>
+              <p>Ornare nulla proin odio consequat.</p>
+            </article>
+          </div>
+        </div>
+        <footer>
+          <a href="#contact" class="button large scrolly">Contact me</a>
+        </footer>
+      </div>
+    </article>
 
-					<div class = "col-sm-4 col-md-4 text-center">
-						<div class = "personal-website-project">
-							<h3>Personal Website</h3>
-							<p>Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.</p>
-							<div class = "row">
-								<div class = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-									<div class = "project-more-info">
-										<a class = "btn btn-default btn-border" href = "#">More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+      <div class="container medium">
+        <header>
+          <h2>Contact Information</h2>
+          <p>Cheng Mao</p>
 
-					<div class = "col-sm-4 col-md-4 text-center">
-						<div class = "strike-zone-project">
-							<h3>Strike Zone Analysis</h3>
-							<p>Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.</p>
-							<div class = "row">
-								<div class = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-									<div class = "project-more-info">
-										<a class = "btn btn-default btn-border" href = "#">More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+          <p>(617)-500-4054</p>
+          <p>hongcheng9394@gmail.com</p>
+        </header>
+        <div class="row">
+          <div class="col-12">
+            <form method="post" action="#">
+              <div class="row">
+                <div class="col-6 col-12-small">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-small">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                    <li>
+                      <input type="reset" value="Clear Form" class="alt" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <footer></footer>
+      </div>
+    </article>
 
-				<div class = "row">
-					<div class = "col-sm-2 col-md-2 col-sm-offset-5 col-md-offset-5">
-						<div class = "see-more-button">
-							<a class = "btn btn-default btn-border" href = "#">More Projects</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--contact-->
-		<div class = "contact" id="contact">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "contact-header">
-							<h1>Contact</h1>
-						</div>
-					</div>
-				</div>
-
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "contact-header-quote">
-							
-						</div>
-					</div>
-				</div>
-
-				<div class = "row">
-					<div class = "col-sm-6 col-md-6">
-						<div class = "contact-instructions">
-							<h2>Reaching out to me</h2>
-							<p>Fell free to contact me! I'm happy to answer any questions, provide more information, or just have a nice conversation! Fill out the form to reach out to me.</p>
-							</br>
-							</br>
-							</br>
-							<h2>Contact Information</h2>
-							<p>Cheng Mao</p>
-							
-							<p>(617)-500-4054</p>
-							<p>hongcheng9394@gmail.com</p>
-						</div>
-					</div>
-
-					<div class = "col-sm-6 col-md-6">
-						<div class = "contact-form-body">
-							<form action="https://formsubmit.co/hongcheng9394@gmail.com" method="POST">
-								<div class = "row">
-									<div class = "col-sm-6 col-md-6">
-										<div class = "firstname">
-											<h4>Full Name *</h4>
-											<input type = "text" placeholder= "First Name" name="firstName">
-										</div>
-									</div>
-
-									<div class = "col-sm-6 col-md-6">
-										<div class = "lastname">
-											<h4>Full Name *</h4>
-											<input type = "text" placeholder= "Last Name" name="lastName">
-										</div>
-									</div>
-								</div>
-
-								<div class = "row">
-									<div class = "col-sm-12 col-md-12">
-										<div class = "email">
-											<h4>Your Email *</h4>
-											<input type = "email" name="email" placeholder="Email" required>
-										</div>
-									</div>
-								</div>
-
-								<div class = "row">
-									<div class = "col-sm-12 col-md-12">
-										<div class = "message">
-											<h4>Message *</h4>
-											<input type = "text" placeholder= "Message" name="message">
-										</div>
-									</div>
-								</div>
-
-								<div class = "row">
-									<div class = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-										<div class = "submit-contact">
-											<button class = "btn btn-default btn-border" type="submit">Submit</button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Footer content -->
-		<div class = "footer">
-		
-				
-					<div >
-						<h3>Cheng Mao</h3>
-						<h4>Copyright &copy; 2021</h4>
-					
-					</div>
-		
-			
-		</div>
-		<!-- <script type = "text/javascript" src = "./js/index.js"></script> -->
-		<script>
-			navigation();
-			projects();
-		</script>
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
