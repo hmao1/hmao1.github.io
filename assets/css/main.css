@@ -165,6 +165,16 @@ textarea {
   margin: 2%;
 }
 
+/*portfolio image*/
+#exploreSafe-description {
+  font-size: 0.9rem;
+
+  color: #888888;
+}
+
+#project-card {
+  height: 657px;
+}
 /* Basic */
 
 html {
@@ -1737,6 +1747,7 @@ article:last-child {
 
 .image img {
   display: block;
+
   width: 100%;
 }
 
